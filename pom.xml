@@ -5,7 +5,7 @@
   <groupId>com.sap.test</groupId>
   <artifactId>Tutorial2</artifactId>
   <version>1.0</version>
-  <packaging>xcode-lib</packaging>
+  <packaging>xcode-app</packaging>
 
   <name>Tutorial2</name>
   
@@ -52,9 +52,9 @@
             <buildAction>clean</buildAction>
             <buildAction>build</buildAction>
           </buildActions>
-          <target>mySpecificXcodeTargetName</target>                  <!-- Can also be set via system property: ${xcode.target} -->
-          <codeSignIdentity>iPhone Developer</codeSignIdentity>       <!-- Can also be set via system property: ${xcode.codeSignIdentity} -->
-          <provisioningProfile>42CB38B0-62BB-4242-BD03-72EDB7570842</provisioningProfile> <!-- Can also be set via system property: ${xcode.provisioningProfile} -->
+         <!--  <target>mySpecificXcodeTargetName</target>                   Can also be set via system property: ${xcode.target} -->
+          <codeSignIdentity>iOS Development</codeSignIdentity>       <!-- Can also be set via system property: ${xcode.codeSignIdentity} -->
+          <provisioningProfile>8a90930f-7fc1-4509-823a-c150a7ec17b7</provisioningProfile> <!-- Can also be set via system property: ${xcode.provisioningProfile} -->
           <appIdSuffix>internal</appIdSuffix>                         <!-- Can also be set via system property: ${xcode.appIdSuffix} -->
           <artifactIdSuffix>release</artifactIdSuffix>                <!-- Can also be set via system property: ${xcode.artifactIdSuffix} -->
         </configuration>
